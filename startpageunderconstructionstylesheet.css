@@ -1,26 +1,71 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+
+body{
+    background-image: url(black-books-51026afe2eb2a.png);
+    background-repeat: no-repeat;
+    background-size:20%;
+    background-position: top;
+    background:linear-gradient(45deg, gainsboro, white );
+    color: cadetblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+
+    }
 
 h1{color:#4b4000;
     background-color:rgba(255, 255, 15, 0.07);
     border:dotted; border-color: rgba(0, 7, 255, 0.32);
     font-family: fantasy;
+    line-height: 4rem;
 }
 
 h2{color:cadetblue;
     background:yellowgreen;
-    alignment:center;
+    text-align:center;
+    font-family: 'Roboto Condensed';
+    line-height: 3rem;
+}
+h2:first-letter{color:teal;
+        font-size:5rem;
+        font-variant: small-caps;
+        font-family: fantasy;
+        letter-spacing: -15px;
 }
 
-body{background-color: gainsboro;
-    color: cadetblue;
-    }
+button{
+        font-size:2rem;
+        font-family: 'Roboto Condensed';
+        margin-top:25px;
+        margin-left:20px;
+        text-align: center;
+}
+
+button:hover{color:cadetblue;}
+button:active{background-color: teal;}
+
+
+
+p{text-align: justify;
+    line-height: 1.77rem;
+}
 
 mark.one{color:#4b4000;
     background-color: rgba(255, 255, 255, 0.42);
     font-family: 'satisfy';}
 
-tr:nth-child(even){background-color: white}
-tr:nth-child(odd){background-color: darkgrey}
+
+table{background-image: url(FF_Parable-Oxford_English_Dictionary_resized.jpg);
+    background-size:62%;
+    background-blend-mode:multiply;
+    color:black;
+}
+tr:nth-child(even){background-color: rgba(255, 255, 255, 0.36);
+                   }
+tr:nth-child(odd){background-color: rgba(52, 52, 52, 0.36);
+                    }
 th{background-color: black;
     color:white}
 
