@@ -1,1 +1,27 @@
-h1{color:RED;}
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+
+h1{color:#4b4000;
+    background-color:rgba(255, 255, 15, 0.07);
+    border:dotted; border-color: rgba(0, 7, 255, 0.32);
+    font-family: fantasy;
+}
+
+h2{color:cadetblue;
+    background:yellowgreen;
+    alignment:center;
+}
+
+body{background-color: gainsboro;
+    color: cadetblue;
+    }
+
+mark.one{color:#4b4000;
+    background-color: rgba(255, 255, 255, 0.42);
+    font-family: 'satisfy';}
+
+tr:nth-child(even){background-color: white}
+tr:nth-child(odd){background-color: darkgrey}
+th{background-color: black;
+    color:white}
+
+tr:nth-child(3) td:nth-child(1){color:maroon}
